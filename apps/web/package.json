@@ -5,12 +5,15 @@
   "scripts": {
     "build": "next build",
     "dev": "next dev",
+    "format": "next lint --fix",
     "lint": "next lint",
-    "start": "next start"
+    "start": "next start",
+    "type": "tsc -p . --noEmit"
   },
   "dependencies": {
     "next": "12.1.5",
-    "react": "17.0.2", "react-dom": "17.0.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
     "ui": "*"
   },
   "devDependencies": {

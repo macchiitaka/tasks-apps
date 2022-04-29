@@ -9,10 +9,12 @@
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev --parallel",
-    "format": "run-s format:prettier format:package-json",
+    "format": "run-s format:prettier format:package-json format:format",
     "format:package-json": "sort-package-json \"package.json\" \"apps/*/package.json\" \"packages/*/package.json\"",
     "format:prettier": "prettier --write --tab-width 2 \"**/*.{js,jsx,ts,tsx,json,yml,yaml,md}\"",
-    "lint": "turbo run lint"
+    "format:format": "turbo run format",
+    "lint": "turbo run lint",
+    "type": "turbo run type"
   },
   "devDependencies": {
     "@takamachi/prettier-config": "^1.1.0",

@@ -5,7 +5,13 @@
       "dependsOn": ["^build"],
       "outputs": ["dist/**", ".next/**"]
     },
+    "type": {
+      "outputs": []
+    },
     "lint": {
+      "outputs": []
+    },
+    "format": {
       "outputs": []
     },
     "dev": {
