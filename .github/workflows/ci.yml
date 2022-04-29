@@ -2,7 +2,7 @@ name: CI
 
 on:
   push:
-    branches: ["main"]
+    branches: ['main']
   pull_request:
     types: [opened, synchronize]
 
@@ -16,9 +16,7 @@ jobs:
       TURBO_TEAM: ${{ secrets.TURBO_TEAM }}
     strategy:
       matrix:
-        os: [ubuntu-latest
-# , macos-latest
-        ]
+        os: [ubuntu-latest]
     steps:
       - name: Check out code
         uses: actions/checkout@v2
