@@ -4,6 +4,9 @@
   "license": "MIT",
   "main": "./index.tsx",
   "types": "./index.tsx",
+  "scripts": {
+    "type": "tsc -p . --noEmit"
+  },
   "devDependencies": {
     "@types/react": "^17.0.44",
     "@types/react-dom": "^17.0.16",
