@@ -17,7 +17,7 @@
     "ui": "*"
   },
   "devDependencies": {
-    "@types/node": "^17.0.41",
+    "@types/node": "^17.0.42",
     "@types/react": "18.0.12",
     "config": "*",
     "eslint": "8.17.0",
